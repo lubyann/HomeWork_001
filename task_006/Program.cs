@@ -5,7 +5,7 @@
 //   7 -> нет
 
 Console.Write("Enter a number: ");
-int number = int.Parse(Console.ReadLine()!); Math.Abs(-number);
+int number = int.Parse(Console.ReadLine()!); 
 
 
 if(number % 2 == 0)
