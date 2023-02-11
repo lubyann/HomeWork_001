@@ -23,4 +23,3 @@ if(numberC > numberA && numberC > numberB)
 {
     Console.WriteLine("Max = " + numberC);
 }
-
