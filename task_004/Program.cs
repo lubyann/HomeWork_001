@@ -11,15 +11,15 @@ int numberB = int.Parse(Console.ReadLine()!);
 Console.Write("Enter a numberC: ");
 int numberC = int.Parse(Console.ReadLine()!);
 
-if(numberA > numberB && numberA > numberC)
+if (numberA > numberB && numberA > numberC)
 {
     Console.WriteLine("Max = " + numberA);
 }
-if(numberB > numberA && numberB > numberC)
+if (numberB > numberA && numberB > numberC)
 {
     Console.WriteLine("Max = " + numberB);
 }
-if(numberC > numberA && numberC > numberB)
+if (numberC > numberA && numberC > numberB)
 {
     Console.WriteLine("Max = " + numberC);
 }
